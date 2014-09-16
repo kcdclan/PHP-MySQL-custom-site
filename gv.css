@@ -1,0 +1,94 @@
+	a:link{color:#0F0; text-align:center;}
+	a:visited{color:#0C3;}
+	a:hover{color:#6F0; background-color:#030;		cursor:crosshair;}
+	p.show{display:block}
+	p.hide{display:none}
+	.body
+{
+	font:"Courier New", Courier, monospace;
+	font-size: 12px;
+	background-attachment: fixed;
+	background-image: url(img/bg.png);
+	background-repeat: repeat;
+	background-position: center;
+	background-color: #333;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}
+.news_table {
+	background-color: #000;
+	border: thin solid #333;
+	color: #0F0;
+}
+
+.copyright {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 8px;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}
+.body_table {
+	background-color: #000;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	color: #030;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	border: medium solid #000;
+	text-align: center;
+}
+.menu {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #060;
+	border: thin none #333;
+	background-color: #030;
+}
+.menu_selection {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #060;
+	background-color: #030;
+	border: thin solid #0B4704;
+}
+
+.menu_selection_hover
+{
+	background-color: #060;color: #0F0;
+	cursor:pointer;
+}
+.news_table
+{
+	background:#000;
+	text-align:center;
+	vertical-align:text-top;
+	border-top-style: inset;
+	border-right-style: dashed;
+	border-bottom-style: solid;
+	border-left-style: dashed;
+	border-right-color: #030;
+	border-left-color: #030;
+	border-right-width: thin;
+	border-left-width: thin;
+	border-top-width: thick;
+	border-top-color: #030;
+	border-bottom-color: #030;
+	border-bottom-width: thin;
+	font-family: Arial, Helvetica, "sans-serif normal";
+	font-size: 12px;
+	color: #3F0;
+	font-weight: normal;
+	font-variant: normal;
+	font-style: normal;
+}
+#copyright {
+	text-align: center;
+	font-size: 6px;
+	background-color: #000;
+	color: #060;
+	border: medium inset #030;
+	table-layout:auto;
+	font-family: "Comic Sans MS", cursive;
+}#copyright:hover {	font-size: 10px; }
